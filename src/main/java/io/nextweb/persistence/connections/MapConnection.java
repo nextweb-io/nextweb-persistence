@@ -1,5 +1,6 @@
 package io.nextweb.persistence.connections;
 
+import io.nextweb.persistence.connections.callbacks.CloseCallback;
 import io.nextweb.persistence.connections.callbacks.DeleteCallback;
 import io.nextweb.persistence.connections.callbacks.GetCallback;
 import io.nextweb.persistence.connections.callbacks.PutCallback;
@@ -11,5 +12,7 @@ public interface MapConnection {
 	public void get(String key, GetCallback callback);
 	
 	public void delete(String key, DeleteCallback callback);
+	
+	public void close(CloseCallback callback);
 	
 }
