@@ -1,5 +1,9 @@
 package io.nextweb.persistence.connections.callbacks;
 
-public interface DeleteCallback {
+import io.nextweb.fn.callbacks.FailureCallback;
 
+public interface DeleteCallback extends FailureCallback {
+
+	public void onSuccess();
+	
 }
