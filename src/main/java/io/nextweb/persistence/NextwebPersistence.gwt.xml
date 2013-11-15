@@ -3,7 +3,7 @@
 <module rename-to="nextwebpersistence">
 	<inherits name='io.nextweb.fn.NextwebFn' />
 	<!-- <inherits name='org.timepedia.exporter.Exporter' /> -->
-	<set-property name="export" value="yes" />
+	<!-- <set-property name="export" value="yes" /> -->
 
 	<entry-point class='io.nextweb.persistence.internal.DummyEntryPoint' />
 
