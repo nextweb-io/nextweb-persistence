@@ -6,6 +6,6 @@ public interface PersistenceProvider {
 
 	public MapConnection createMap(String id);
 	
-	
+	public void removeMap(String id);
 	
 }
