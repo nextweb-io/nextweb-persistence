@@ -12,7 +12,7 @@ public interface MapConnection {
 	
 	public Object get(String key, GetCallback callback);
 	
-	public void delete(String key, DeleteCallback callback);
+	public void remove(String key, DeleteCallback callback);
 	
 	public void close(CloseCallback callback);
 	
