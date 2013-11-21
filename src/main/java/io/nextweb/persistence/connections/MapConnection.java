@@ -12,6 +12,8 @@ public interface MapConnection {
 	
 	public void get(String key, GetCallback callback);
 	
+	public Object getSync(String key);
+	
 	public void remove(String key, DeleteCallback callback);
 	
 	public void close(CloseCallback callback);
