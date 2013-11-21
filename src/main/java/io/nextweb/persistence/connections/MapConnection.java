@@ -10,7 +10,7 @@ public interface MapConnection {
 
 	public void put(String key, Object value, PutCallback callback);
 	
-	public Object get(String key, GetCallback callback);
+	public void get(String key, GetCallback callback);
 	
 	public void remove(String key, DeleteCallback callback);
 	
