@@ -1,6 +1,6 @@
 package io.nextweb.persistence.connections.callbacks;
 
-import io.nextweb.fn.callbacks.FailureCallback;
+import de.mxro.async.callbacks.FailureCallback;
 
 public interface CloseCallback extends FailureCallback {
 
