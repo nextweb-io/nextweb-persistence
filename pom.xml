@@ -27,9 +27,15 @@
 	<!-- Dependent Modules -->
 	<dependencies>
 
-		<dependency>
+		<!-- <dependency>
 			<groupId>io.nextweb.promise</groupId>
 			<artifactId>nextweb-promise</artifactId>
+			<version>[0.0.1,)</version>
+		</dependency> -->
+
+		<dependency>
+			<groupId>de.mxro.async.map</groupId>
+			<artifactId>async-map</artifactId>
 			<version>[0.0.1,)</version>
 		</dependency>
 
