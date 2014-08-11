@@ -1,6 +1,6 @@
 package io.nextweb.persistence;
 
-import io.nextweb.persistence.connections.MapConnection;
+import de.mxro.async.map.MapConnection;
 
 public interface PersistenceProvider {
 
