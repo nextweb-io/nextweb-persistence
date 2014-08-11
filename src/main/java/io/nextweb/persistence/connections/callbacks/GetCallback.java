@@ -1,11 +1,8 @@
 package io.nextweb.persistence.connections.callbacks;
 
-import de.mxro.async.callbacks.FailureCallback;
+import de.mxro.async.callbacks.ValueCallback;
 
-public interface GetCallback extends FailureCallback {
+public interface GetCallback extends ValueCallback<Object> {
 
-	public void onSuccess(Object value);
-	
-	public void onDoesNotExist();
 	
 }
