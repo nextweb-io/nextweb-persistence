@@ -28,8 +28,8 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>io.nextweb.fn</groupId>
-			<artifactId>nextweb-fn</artifactId>
+			<groupId>io.nextweb.promise</groupId>
+			<artifactId>nextweb-promise</artifactId>
 			<version>[0.0.1,)</version>
 		</dependency>
 
