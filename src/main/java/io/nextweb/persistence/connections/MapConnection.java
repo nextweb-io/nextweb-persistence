@@ -1,12 +1,11 @@
 package io.nextweb.persistence.connections;
 
-import de.mxro.async.callbacks.SimpleCallback;
 import io.nextweb.persistence.connections.callbacks.GetCallback;
-import io.nextweb.persistence.connections.callbacks.PutCallback;
+import de.mxro.async.callbacks.SimpleCallback;
 
 public interface MapConnection {
 
-	public void put(String key, Object value, PutCallback callback);
+	public void put(String key, Object value, SimpleCallback callback);
 	
 	public void get(String key, GetCallback callback);
 	
