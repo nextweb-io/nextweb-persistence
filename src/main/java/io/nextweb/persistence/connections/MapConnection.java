@@ -1,15 +1,15 @@
 package io.nextweb.persistence.connections;
 
-import io.nextweb.persistence.connections.callbacks.GetCallback;
 import de.mxro.async.callbacks.SimpleCallback;
+import de.mxro.async.callbacks.ValueCallback;
 
-public interface MapConnection {
+public interface MapConnection<T> {
 
-	public void put(String key, Object value, SimpleCallback callback);
+	public void put(String key, T value, SimpleCallback callback);
 	
-	public void get(String key, GetCallback callback);
+	public void get(String key, ValueCallback<T> callback);
 	
-	public Object getSync(String key);
+	public T getSync(String key);
 	
 	public void remove(String key, SimpleCallback callback);
 	
