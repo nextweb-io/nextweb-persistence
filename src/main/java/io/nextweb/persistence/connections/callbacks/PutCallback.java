@@ -1,9 +1,8 @@
 package io.nextweb.persistence.connections.callbacks;
 
-import de.mxro.async.callbacks.FailureCallback;
+import de.mxro.async.callbacks.SimpleCallback;
 
-public interface PutCallback extends FailureCallback {
+public interface PutCallback extends SimpleCallback {
 
-	public void onSuccess();
 	
 }
